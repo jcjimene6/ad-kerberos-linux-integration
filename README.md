@@ -1,3 +1,3 @@
 # ad <> Linux Kerberos Integration
 
-Work in progross.
+Work in progress.
