@@ -71,5 +71,23 @@ Successful integration was validated by:
 - Authenticating over SSH using a domain account
 - Confirming stable SSSD operation
 
-## Screenshots
-Detailed screenshots of configuration steps and troubleshooting states are included in:
+
+---
+
+## Documentation
+
+Detailed configuration steps and troubleshooting notes are available in:
+
+- `windows/` — Domain controller setup and routing
+- `linux/` — Linux networking, Kerberos, and SSSD configuration
+- `troubleshooting/` — Deep dives into failure modes and root causes
+
+Supporting screenshots are included in:
+
+docs/lab_screenshots.docx
+
+---
+
+## Takeaway
+
+This lab reinforced how tightly coupled identity, networking, DNS, and time synchronization are, and how failures often exist at system boundaries rather than within a single component.
