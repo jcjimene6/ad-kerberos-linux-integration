@@ -1,10 +1,9 @@
 # Linux <> Active Directory Integration (Kerberos + SSSD)
 
-=======
 ## Overview
 This project documents the process of integrating an Ubuntu 22.04 Linux host with a Windows Server 2019 Active Directory domain using **Kerberos and SSSD**, without winbind or any GUI tools.
 
-The goal was to achieve stable, domain-backed authentication on Linux while understanding — and troubleshooting — the full identity and networking stack end to end.
+The goal was to achieve stable, domain-backed authentication on Linux while understanding and troubleshooting the full identity and networking stack end to end.
 
 ## Environment
 - **Domain Controller:** Windows Server 2019  
